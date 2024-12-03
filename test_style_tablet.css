@@ -1,0 +1,13 @@
+@media screen  and (min-width: 769px) and (max-width: 1280px){
+
+
+    .name input{
+        width: 200px;
+        height: 20px;
+    }
+    .list input {
+        width: 200px;
+        height: 200px;
+    }
+
+}

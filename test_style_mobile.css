@@ -1,0 +1,18 @@
+@media screen  and (max-width: 768px){
+
+    .wrapper{
+        width: 768px;
+        padding: 32px 16px;
+        margin-top: 150px;
+
+    }
+    .name input{
+        width: 200px;
+        height: 20px;
+    }
+    .list input {
+        width: 200px;
+        height: 200px;
+    }
+
+}
