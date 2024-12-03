@@ -1,12 +1,20 @@
 @media screen  and (min-width: 769px) and (max-width: 1280px){
-
-
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper{
+        width: 1280px;
+        padding: 50px 40px;
+        margin-top: 150px;
+    }
     .name input{
-        width: 200px;
+        width: 400px;
         height: 20px;
     }
-    .list input {
-        width: 200px;
+    .list select {
+        width: 400px;
         height: 200px;
     }
 

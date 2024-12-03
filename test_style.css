@@ -20,46 +20,46 @@ body{
     flex-direction: column;
     margin: 80px;
     padding: 50px;
-    gap: 30px;
+    gap: 50px;
     border-radius: 1%;
 }
-p{
-color: grey;
-}
-.name{
-    display: block;
+label{
+    position: absolute;
+    color: grey;
 }
 
 .name input{
+    margin-top: 22px;
     width: 500px;
     height: 20px;
+    margin-right: 50px;
 }
 
 .name button{
    width: 60px;
-    margin-left: 48px;
 }
 .list{
     display: flex;
-
+    flex-direction: row;
+    align-items: start;
 }
 .list__left{
-    margin-top: 20px ;
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding-left: 50px;
 }
 .list__left button:nth-child(3){
-margin-top: 20px;
+    margin-top: 20px;
     width: 80px;
 }
 
-.list input{
+.list select{
+    margin-top: 22px;
     width: 500px;
-    height: 350px;
 }
 .list button{
+    margin-top: 20px;
     width: 100px;
 }
 

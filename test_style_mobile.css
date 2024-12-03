@@ -1,8 +1,13 @@
 @media screen  and (max-width: 768px){
-
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
     .wrapper{
         width: 768px;
-        padding: 32px 16px;
+        padding: 50px 40px;
         margin-top: 150px;
 
     }
@@ -10,7 +15,7 @@
         width: 200px;
         height: 20px;
     }
-    .list input {
+    .list select {
         width: 200px;
         height: 200px;
     }

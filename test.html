@@ -15,19 +15,18 @@
 <div class="wrapper">
     <h1>Test</h1>
     <form class="name">
-        <p>Name/Value Pairs </p>
-        <input type="text" name="name" placeholder="Name=Value">
-        <button>Add</button>
+        <label for="nameValuePair">Name/Value Pairs </label>
+        <input id="nameValuePair" type="text" name="name" placeholder="Name=Value">
+        <button type="button" id="add">Add</button>
     </form>
     <form class="list">
-        <div class="list__right">
-            <p>Name/Value Pairs List</p>
-        <input type="text" name="result">
-        </div>
+        <label for="listResult">Name/Value Pairs List</label>
+        <select id="listResult" name="name-number" size="10">
+        </select>
         <div class="list__left">
-        <button>Sort by name</button>
-        <button>Sort by value</button>
-        <button>Delete</button>
+        <button type="button" id="sort-name">Sort by name</button>
+        <button type="button" id="sort-value">Sort by value</button>
+        <button type="button" id="delete">Delete</button>
         </div>
     </form>
 </div>
